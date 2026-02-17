@@ -24,6 +24,9 @@ $(BUILD_DIR)/%.o: $(SRC_DIR)/%.c
 
 .PHONY: clean run
 
+install: $(BIN)
+	cp ./$(BIN) ~/.local/bin/kiri
+
 run: $(BIN)
 	./$(BIN)
 

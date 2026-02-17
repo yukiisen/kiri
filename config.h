@@ -15,7 +15,7 @@
 
 // ui stuff
 #define INPUT_TIMEOUT 50 // in ms
-#define INTERFACE_GAP_VERTICAL 4
+#define INTERFACE_GAP_VERTICAL 10
 #define INTERFACE_GAP_HORIZONTAL 2
 #define SCROLLOFF 10
 
