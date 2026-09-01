@@ -26,7 +26,6 @@ typedef struct {
     int pid;
 } Proc;
 
-// NOTE: static variables reduce stack allocations, use when possible
 static String query = {0};
 static CliArgs options = {0};
 static Scores matches = {0};
@@ -281,7 +280,7 @@ loop_end:
 
     cleanup();
 
-    return 0;
+    return 1;
 }
 
 
